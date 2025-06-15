@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONAFIDE SAFARI LIMITED - Experience Tanzania</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons (WhatsApp) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFCEE; /* Cream */
+        }
+        .text-gold {
+            color: #DAA520; /* Gold */
+        }
+        .bg-gold {
+            background-color: #DAA520; /* Gold */
+        }
+        .border-gold {
+            border-color: #DAA520; /* Gold */
+        }
+        .hero-background {
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdailynews.co.tz%2Ftanapa-raises-awareness-on-attractions-investment-opportunities%2F&psig=AOvVaw2ImclIXruU9HcMtbM7JO6_&ust=1750081753784000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJigidzI840DFQAAAAAdAAAAABAV');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .hero-overlay {
+            background-color: rgba(0, 0, 0, 0.5); /* Black overlay */
+        }
+    </style>
+</head>
+<body class="text-black">
+    <!-- Navigation Bar -->
+    <nav class="bg-black p-4 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center flex-wrap">
+            <a href="index.html" class="text-2xl font-bold text-gold rounded-md p-2">BONAFIDE SAFARI LIMITED</a>
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gold border-gold hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v15z"/></svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="nav-content">
+                <ul class="text-lg lg:flex justify-end flex-1 items-center">
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="index.html" class="block py-2 px-4 text-gold hover:text-white hover:bg-gold rounded-md transition-colors duration-300">Home</a></li>
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="#services" class="block py-2 px-4 text-gold hover:text-white hover:bg-gold rounded-md transition-colors duration-300">Services</a></li>
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="#team" class="block py-2 px-4 text-gold hover:text-white hover:bg-gold rounded-md transition-colors duration-300">Our Team</a></li>
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="#contact" class="block py-2 px-4 text-gold hover:text-white hover:bg-gold rounded-md transition-colors duration-300">Contact Us</a></li>
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="about.html" class="block py-2 px-4 text-gold hover:text-white hover:bg-gold rounded-md transition-colors duration-300">About Us</a></li>
+                    <li class="lg:mr-3 mt-2 lg:mt-0"><a href="#booking" class="block py-2 px-4 bg-gold text-white hover:bg-yellow-700 rounded-md transition-colors duration-300 font-semibold">Book Now!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-background h-[600px] flex items-center justify-center text-center text-white relative rounded-b-xl overflow-hidden">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 p-6 rounded-lg">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-gold leading-tight drop-shadow-lg">BONAFIDE SAFARI LIMITED</h1>
+            <p class="mt-4 text-2xl md:text-3xl font-medium">Your Gateway to Unforgettable Tanzanian Adventures</p>
+            <p class="mt-2 text-xl md:text-2xl">Headquartered in Arusha, Tanzania</p>
+            <a href="#services" class="mt-8 inline-block bg-gold text-black font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-700 hover:text-white transition-all duration-300 transform hover:scale-105">
+                Explore Our Safaris
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Our Services Section -->
+        <section id="services" class="my-16 bg-white p-8 rounded-xl shadow-lg border-t-4 border-gold">
+            <h2 class="text-4xl font-bold text-center text-black mb-10 pb-4 border-b-2 border-gold inline-block mx-auto rounded-md">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Item 1: Tour Guiding -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1 border border-yellow-100">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">i. Tour Guiding</h3>
+                    <p class="text-gray-700">Expert local guides to enhance your wildlife encounters and cultural experiences across Tanzania's diverse landscapes.</p>
+                </div>
+                <!-- Service Item 2: Safari Packages -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1 border border-yellow-100">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">ii. Safari Packages</h3>
+                    <p class="text-gray-700">Tailored safari adventures to iconic destinations like Serengeti, Ngorongoro, Tarangire, and Lake Manyara.</p>
+                </div>
+                <!-- Service Item 3: Kilimanjaro Treks -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1 border border-yellow-100">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">iii. Kilimanjaro Treks</h3>
+                    <p class="text-gray-700">Conquer Africa's highest peak with our professionally organized and guided Kilimanjaro climbing expeditions.</p>
+                </div>
+                <!-- Service Item 4: Meru Treks -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1 border border-yellow-100">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">iv. Meru Treks</h3>
+                    <p class="text-gray-700">Experience the stunning beauty of Mount Meru, an excellent acclimatization trek or a rewarding climb in itself.</p>
+                </div>
+                <!-- Service Item 5: Zanzibar Beach Holidays -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1 border border-yellow-100">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">v. Zanzibar Beach Holidays</h3>
+                    <p class="text-gray-700">Relax and unwind on the pristine white sands of Zanzibar's enchanting beaches, combined with cultural tours.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Team Section -->
+        <section id="team" class="my-16 bg-white p-8 rounded-xl shadow-lg border-t-4 border-gold">
+            <h2 class="text-4xl font-bold text-center text-black mb-10 pb-4 border-b-2 border-gold inline-block mx-auto rounded-md">Our Team</h2>
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                <div class="w-48 h-48 flex-shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-gold">
+                    <img src="https://placehold.co/200x200/EEEEEE/333333?text=MD+Profile" alt="Managing Director Profile" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center md:text-left">
+                    <h3 class="text-3xl font-semibold text-gold mb-2">Managing Director</h3>
+                    <p class="text-xl font-medium text-black">John Doe</p> <!-- Placeholder Name -->
+                    <p class="text-gray-700 mt-4 leading-relaxed">
+                        With over 10 years of invaluable experience in the Tanzanian tourism industry, our Managing Director brings unparalleled expertise and passion to BONAFIDE SAFARI LIMITED. Their deep understanding of wildlife, local cultures, and sustainable tourism practices ensures every journey is meticulously planned and flawlessly executed, creating truly memorable and impactful experiences for our guests.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="my-16 bg-white p-8 rounded-xl shadow-lg border-t-4 border-gold">
+            <h2 class="text-4xl font-bold text-center text-black mb-10 pb-4 border-b-2 border-gold inline-block mx-auto rounded-md">Contact Us</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-center md:text-left">
+                <div class="p-6 rounded-lg shadow-md border border-yellow-100 bg-yellow-50">
+                    <h3 class="text-2xl font-semibold text-gold mb-3">Get in Touch</h3>
+                    <p class="text-gray-700 mb-2">Manager Phone: <a href="tel:+255784508578" class="text-black hover:underline">+255 784 508 578</a></p>
+                    <p class="text-gray-700 mb-2">WhatsApp: <a href="https://wa.me/255784508578" target="_blank" class="text-green-600 hover:underline flex items-center justify-center md:justify-start gap-2">
+                        <i class="fab fa-whatsapp"></i> +255 784 508 578
+                    </a></p>
+                    <p class="text-gray-700">Email: <a href="mailto:scholaungelle@gmail.com" class="text-blue-600 hover:underline">scholaungelle@gmail.com</a></p>
+                    <p class="text-gray-600 mt-4">Our headquarter is located in Arusha City, Tanzania.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Form Section -->
+        <section id="booking" class="my-16 bg-white p-8 rounded-xl shadow-lg border-t-4 border-gold">
+            <h2 class="text-4xl font-bold text-center text-black mb-10 pb-4 border-b-2 border-gold inline-block mx-auto rounded-md">Book Your Safari!</h2>
+            <p class="text-center text-gray-700 mb-8">Fill out the form below and we'll get back to you shortly to help plan your dream adventure.</p>
+            <form action="mailto:scholaungelle@gmail.com" method="post" enctype="text/plain" class="max-w-xl mx-auto space-y-6">
+                <div>
+                    <label for="name" class="block text-black text-lg font-medium mb-2">Your Name:</label>
+                    <input type="text" id="name" name="name" required class="w-full p-3 border border-yellow-300 rounded-md shadow-sm focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition-colors duration-200 bg-yellow-50">
+                </div>
+                <div>
+                    <label for="email" class="block text-black text-lg font-medium mb-2">Your Email:</label>
+                    <input type="email" id="email" name="email" required class="w-full p-3 border border-yellow-300 rounded-md shadow-sm focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition-colors duration-200 bg-yellow-50">
+                </div>
+                <div>
+                    <label for="phone" class="block text-black text-lg font-medium mb-2">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required class="w-full p-3 border border-yellow-300 rounded-md shadow-sm focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition-colors duration-200 bg-yellow-50" placeholder="+255 123 456 789">
+                </div>
+                <div>
+                    <label for="message" class="block text-black text-lg font-medium mb-2">Your Message / Safari Interests:</label>
+                    <textarea id="message" name="message" rows="6" class="w-full p-3 border border-yellow-300 rounded-md shadow-sm focus:border-gold focus:ring focus:ring-gold focus:ring-opacity-50 transition-colors duration-200 bg-yellow-50" placeholder="Tell us about your ideal safari, dates, number of people, etc."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gold text-black font-semibold py-3 px-6 rounded-md shadow-lg hover:bg-yellow-700 hover:text-white transition-colors duration-300 transform hover:scale-105">
+                    Send My Inquiry
+                </button>
+            </form>
+            <p class="text-sm text-center text-gray-600 mt-4">
+                <strong class="text-red-600">Note:</strong> This form will attempt to open your default email client to send the message.
+                If it doesn't work, please send an email directly to <a href="mailto:scholaungelle@gmail.com" class="text-blue-600 underline">scholaungelle@gmail.com</a>.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-8 text-center rounded-t-lg mt-16">
+        <div class="container mx-auto">
+            <p>&copy; 2023 BONAFIDE SAFARI LIMITED. All rights reserved.</p>
+            <p class="mt-2">Connecting you to the wild heart of Tanzania from Arusha City.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile navigation toggle
+        document.getElementById('nav-toggle').onclick = function () {
+            document.getElementById('nav-content').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
